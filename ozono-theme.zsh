@@ -1,4 +1,3 @@
-source ~/dotfiles/scripts/os_detection.sh
 
 #git values
 OZONO_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}\ue709 (%{$fg[red]%}"
@@ -22,6 +21,17 @@ OZONO_THEME_OK=$'\ue711'
 OZONO_THEME_OK_MAC=$'\ue711'
 OZONO_THEME_OK_LINUX=$'\ue712'
 OZONO_THEME_OK_RASPY=$'\ue722'
+
+#os_detection
+platform='unknown'
+unamestr=`uname`
+if [[ "$unamestr" == 'Linux' ]]; then
+   platform='linux'
+elif [[ "$unamestr" == 'Darwin' ]]; then
+   platform='mac'
+elif [[ "$unamestr" == 'Linux raspberrypi' ]]; then
+   platform='raspy'
+fi
 
 #set ok icon according the OS, default mac
 if [[ $platform == 'linux' ]]; then
