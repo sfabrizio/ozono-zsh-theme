@@ -1,9 +1,9 @@
 
 #git values
-OZONO_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}\ue709 (%{$fg[red]%}"
-OZONO_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
-OZONO_THEME_GIT_PROMPT_DIRTY="%{$fg[blue]%}) %{$fg[yellow]%}"
-OZONO_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%})"
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}\ue709 (%{$fg[red]%}"
+ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[blue]%}) %{$fg[yellow]%}"
+ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%})"
 
 #theme values
 OZONO_THEME_NVM_SIMBOL="%{$fg_bold[green]%}⬢"
@@ -99,11 +99,11 @@ prompt_git_status() {
 }
 
 #Final prompt concat
-PROMPT_OZONO=''
-PROMPT_OZONO+='${ret_status}'
-PROMPT_OZONO+='  %{$fg[cyan]%}%c%{$reset_color%}'
-PROMPT_OZONO+=' $(git_prompt_info)'
-PROMPT_OZONO+='$(print_nvm_info)'
-PROMPT_OZONO+='$(prompt_git_status)'
-PROMPT_OZONO+='$(echo -n $OZONO_THEME_PROMPT_FINAL)'
+PROMPT=''
+PROMPT+='${ret_status}'
+PROMPT+='  %{$fg[cyan]%}%c%{$reset_color%}'
+PROMPT+=' $(git_prompt_info)'
+PROMPT+='$(print_nvm_info)'
+PROMPT+='$(prompt_git_status)'
+PROMPT+='$(echo -n $OZONO_THEME_PROMPT_FINAL)'
 
