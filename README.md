@@ -85,3 +85,8 @@ Uff a lot 😱 but first:
 ## License
 
 ozono-zsh-theme is released under the [MIT license](LICENSE.md).
+
+<p align="center">
+<a href="https://github.com/labs-js/turbo-git/blob/develop/README.md"><img src="https://img.shields.io/badge/Turbo_Commit-on-3DD1F2.svg" alt="Turbo Commit: On"/></a>
+</p>
+
