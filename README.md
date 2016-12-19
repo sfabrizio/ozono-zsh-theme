@@ -1,6 +1,9 @@
 
-<h1 align="center"> 🌏 OZ0NO 🌎 </h1>
-<h2 align="center">Let's Breathe a clean ZSH</h2>
+<h1 align="center"> 
+  🌏 OZ0NO 🌎 
+  <p align="center">Let's Breathe a clean ZSH</p>
+</h1>
+
 
 <p align="center">
   <img src="./preview.png" width="600"/>
