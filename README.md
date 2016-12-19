@@ -20,24 +20,31 @@ For correct work you will first need:
 - [nvm](https://github.com/creationix/nvm) If you want see the node prompt. (Your project need to have a package.json file also)
 - [Nerd font](https://github.com/ryanoasis/nerd-fonts) installed on your OS. (Only neccesary for the fancy icons)
 
-# Easy Install
+# Installation
 
-> If you have a standar oh-ny-zsh config this should work fine -> 💫✨
+## [Antigen](https://github.com/zsh-users/antigen)
 
-Install using **curl**:
+Add `antigen bundle sfabrizio/ozono-zsh-theme` to your .zshrc file. Antigen will handle cloning the plugin for you automatically the next time you start zsh. You can also temporarily add the plugin to a running zsh with `antigen bundle sfabrizio/ozono-zsh-theme` for testing before adding it to your `.zshrc`.
+
+## Oh-My-ZSH
+
+### Easy Install
+
+> If you have a standard oh-ny-zsh config this should work fine -> 💫✨
+
+#### Install using **curl**:
 
 ```
 curl -o - https://raw.githubusercontent.com/sfabrizio/ozono-zsh-theme/master/install.sh | zsh
 ```
 
-Install using **wget**:
+#### Install using **wget**:
 
 ```
 wget -O - https://raw.githubusercontent.com/sfabrizio/ozono-zsh-theme/master/install.sh | zsh
 ```
 
-
-# Manual install
+### Manual install
 
 > In case that the easy install doesn't work for you -> 💥🙈
 
@@ -65,6 +72,10 @@ wget -O - https://raw.githubusercontent.com/sfabrizio/ozono-zsh-theme/master/ins
     ```bash
     source ~/.zshrc
     ```
+
+## [Zgen](https://github.com/tarjoilija/zgen)
+
+Add `zgen load sfabrizio/ozono-zsh-theme` to your .zshrc file in the same function you're doing your other `zgen load` calls in. Zgen will automatically clone the repositories for you when you do a `zgen save`.
 
 # New Features 
 
