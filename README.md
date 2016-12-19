@@ -1,14 +1,14 @@
 
-# 🌀  ozono-zsh-theme
+<h1 align="center">🌀 ozono-zsh-theme</h1>
+
+<p align="center">
+  <img src="./preview.png" width="600"/>
+</p>
 
 > An [“Oh My ZSH!”](http://ohmyz.sh/) theme with sopport for Node.js envs, OS switching, Git Status & some fine tunning for JS enviroments.
 
-# Preview:
 
-![ozono](./preview.png)
-
-
-### **Requirement:** you need to have oh-my-zsh before, If you don't have it follows this [instructions](https://github.com/robbyrussell/oh-my-zsh/#basic-installation)
+# How to Install
 
 Install using **curl**:
 
