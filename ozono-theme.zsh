@@ -12,7 +12,7 @@ OZONO_THEME_NVM_SUFFIX="%{$fg_bold[green]%})%{$reset_color%}"
 
 #final prompt separator:
 # spectrum_ls for see all colors
-OZONO_THEME_PROMPT_FINAL="%{$FG[063]%}"'\uf0da '"%{$reset_color%}"
+OZONO_THEME_PROMPT_FINAL="%{$FG[063]%}"'\uf0da'"%{$reset_color%}"
 
 OZONO_THEME_CRASH="💥"
 OZONO_THEME_JS_ICON="%{$fg[yellow]%}"$'\ue74e'"%{$reset_color%}"
@@ -93,7 +93,7 @@ prompt_git_status() {
     zstyle ':vcs_info:*' formats ' %u%c'
     zstyle ':vcs_info:*' actionformats ' %u%c'
     vcs_info
-    echo -n "${vcs_info_msg_0_%%}${mode}"
+    echo -n " ${vcs_info_msg_0_%%}${mode}"
   fi
   echo -n "%{$reset_color%}"
 }
@@ -101,7 +101,7 @@ prompt_git_status() {
 #Final prompt concat
 PROMPT=''
 PROMPT+='${ret_status}'
-PROMPT+='  %{$fg[cyan]%}%c%{$reset_color%}'
+PROMPT+=' %{$fg[cyan]%}%c%{$reset_color%}'
 PROMPT+=' $(git_prompt_info)'
 PROMPT+='$(print_nvm_info)'
 PROMPT+='$(prompt_git_status)'
