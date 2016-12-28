@@ -1,6 +1,6 @@
 
-<h1 align="center"> 
-  🌏 OZ0NO 🌎 
+<h1 align="center">
+  🌏 OZ0NO 🌎
   <p align="center">Let's Breathe a clean ZSH</p>
 </h1>
 
@@ -9,16 +9,16 @@
   <img src="./preview.png" width="600"/>
 </p>
 
-> An [“Oh My ZSH!”](http://ohmyz.sh/) theme with sopport for Node.js envs, OS switching, Git Status & some fine tunning for JS enviroments.
+> An [“Oh My ZSH!”](http://ohmyz.sh/) theme with support for Node.js envs, OS switching, Git Status & some fine tuning for JS enviroments.
 
 
 ## Requirements
 
-For correct work you will first need:
+To work correctly you will first need to install the following:
 
-- [“Oh My ZSH!”](https://github.com/robbyrussell/oh-my-zsh/) must be installed
-- [nvm](https://github.com/creationix/nvm) If you want see the node prompt. (Your project need to have a package.json file also)
-- [Nerd font](https://github.com/ryanoasis/nerd-fonts) installed on your OS. (It's neccesary for the fancy icons)
+- [“Oh My ZSH!”](https://github.com/robbyrussell/oh-my-zsh/) or a compatible framework like [Antigen](https://github.com/zsh-users/antigen) or [Zgen](https://github.com/tarjoilija/zgen)
+- [nvm](https://github.com/creationix/nvm) If you want see the node prompt. (Your project needs to have a package.json file also)
+- [Nerd font](https://github.com/ryanoasis/nerd-fonts) installed on your OS. (It provides the fancy icons)
 
 # Installation
 
@@ -77,11 +77,11 @@ wget -O - https://raw.githubusercontent.com/sfabrizio/ozono-zsh-theme/master/ins
     source ~/.zshrc
     ```
 
-# New Features 
+# New Features
 
-Do you feel that ozono need more features? Create an issue! Your ideas are welcome -> 💡s = 😁
+Do you feel that ozono needs more features? Create an issue! Your ideas are welcome -> 💡s = 😁
 
-If you have any issue please let me know.. I'd like to help -> 🤓
+If you have any issues please let me know.. I'd like to help -> 🤓
 
 Contributors would be great also! 🙌
 
@@ -91,7 +91,7 @@ Contributors would be great also! 🙌
 Uff a lot 😱 but first:
 
 - I need to start to document all the values for a better customization.
-- Testing it! for eg. The first icon (mac icon on the preview) change according the OS.. But I didn't test on others OS, It'd be easy add more support on this feature.
+- Testing it! for eg. The first icon (mac icon on the preview) change according the OS.. But I didn't test on other OSes, It'd be easy add more support on this feature.
 
 ## License
 
