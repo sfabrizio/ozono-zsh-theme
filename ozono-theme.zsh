@@ -35,9 +35,11 @@ fi
 
 #set ok icon according the OS, default mac
 if [[ $platform == 'linux' ]]; then
-    $OZONO_THEME_OK = $OZONO_THEME_LIMUX
+    OZONO_THEME_OK=$OZONO_THEME_OK_LINUX
 elif [[ $platform == 'raspy' ]]; then
-    $OZONO_THEME_OK = $OZONO_THEME_RASPY
+    OZONO_THEME_OK=$OZONO_THEME_RASPY
+else
+    OZONO_THEME_OK=">"
 fi
 
 #ok or wrong command
