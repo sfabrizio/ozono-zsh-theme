@@ -14,7 +14,7 @@
 
 ## Requirements
 
-To work correctly you will first need to install the following:
+To work correctly you will first need to have the following installed:
 
 - [“Oh My ZSH!”](https://github.com/robbyrussell/oh-my-zsh/) or a compatible framework like [Antigen](https://github.com/zsh-users/antigen) or [Zgen](https://github.com/tarjoilija/zgen)
 - [nvm](https://github.com/creationix/nvm) If you want see the node prompt. (Your project needs to have a package.json file also)
@@ -50,7 +50,7 @@ wget -O - https://raw.githubusercontent.com/sfabrizio/ozono-zsh-theme/master/ins
 
 ### Manual install
 
-> In case that the easy install doesn't work for you -> 💥🙈
+> In case that the easy install doesn't work for you -> 💥🙈 Please feel free to open an issue
 
 1. Download the theme file [here](https://raw.githubusercontent.com/sfabrizio/ozono-zsh-theme/master/ozono-theme.zsh) or just run:
 
@@ -88,10 +88,7 @@ Contributors would be great also! 🙌
 
 # TODO
 
-Uff a lot 😱 but first:
-
-- I need to start to document all the values for a better customization.
-- Testing it! for eg. The first icon (mac icon on the preview) change according the OS.. But I didn't test on other OSes, It'd be easy add more support on this feature.
+- document how to customize. 
 
 ## License
 
