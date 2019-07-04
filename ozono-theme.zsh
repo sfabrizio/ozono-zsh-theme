@@ -14,8 +14,8 @@ OZONO_THEME_NVM_SUFFIX="%{$fg_bold[green]%})%{$reset_color%}"
 # spectrum_ls for see all colors
 OZONO_THEME_PROMPT_FINAL="%{$FG[063]%}"'\uf0da'"%{$reset_color%}"
 
-OZONO_THEME_CRASH="💥"
-OZONO_THEME_CRASH_LINUX=$'/uf127'
+OZONO_THEME_CRASH=$'/uf127'
+OZONO_THEME_CRASH_MAC="💥"
 OZONO_THEME_JS_ICON="%{$fg[yellow]%}"$'\ue74e'"%{$reset_color%}"
 
 OZONO_THEME_OK=$'\ue711'
@@ -36,13 +36,14 @@ elif [[ "$unamestr" == 'Darwin' ]]; then
    platform='mac'
 fi
 
-#set ok icon according the OS, default mac
-if [[ $platform == 'linux' ]]; then
+#set ok icon according the OS, default > symbol
+if [[ $platform == 'mac' ]]; then
+    OZONO_THEME_OK=$OZONO_THEME_OK_MAC;
+    OZONO_THEME_CRASH=$OZONO_THEME_CRASH_MAC
+elif [[ $platform == 'linux' ]]; then
     OZONO_THEME_OK=$OZONO_THEME_OK_LINUX
-    OZONO_THEME_CRASH=$OZONO_THEME_CRASH_LINUX
 elif [[ $platform == 'raspy' ]]; then
     OZONO_THEME_OK=$OZONO_THEME_OK_RASPY
-    OZONO_THEME_CRASH=$OZONO_THEME_CRASH_LINUX
 else
     OZONO_THEME_OK=">"
 fi
