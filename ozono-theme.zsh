@@ -14,7 +14,7 @@ OZONO_THEME_NVM_SUFFIX="%{$fg_bold[green]%})%{$reset_color%}"
 # spectrum_ls for see all colors
 OZONO_THEME_PROMPT_FINAL="%{$FG[063]%}"'\uf0da'"%{$reset_color%}"
 
-OZONO_THEME_CRASH=$'/uf127'
+OZONO_THEME_CRASH=$'\uf127'
 OZONO_THEME_CRASH_MAC="💥"
 OZONO_THEME_JS_ICON="%{$fg[yellow]%}"$'\ue74e'"%{$reset_color%}"
 
