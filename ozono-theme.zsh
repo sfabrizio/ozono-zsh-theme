@@ -25,12 +25,14 @@ OZONO_THEME_OK_RASPY=$'\ue722'
 #os_detection
 platform='unknown'
 unamestr=`uname`
-if [[ "$unamestr" == 'Linux' ]]; then
+unameMachine=`uname -m`
+
+if [[ "$unameMachine" == arm* ]]; then
+   platform='raspy'
+elif [[ "$unamestr" == 'Linux' ]]; then
    platform='linux'
 elif [[ "$unamestr" == 'Darwin' ]]; then
    platform='mac'
-elif [[ "$unamestr" == 'Linux raspberrypi' ]]; then
-   platform='raspy'
 fi
 
 #set ok icon according the OS, default mac
